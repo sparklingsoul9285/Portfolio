@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<title>Onkar's Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+
+button{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button a{
+    text-decoration: none;
+}
+
+
+.secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+
+      .secondSection .box {
+        background: white;
+        width: 84vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+      }
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+
+      .vertical-title {
+        position: relative;
+        top: 76px;
+        width: 150px;
+        font-size: 14px;
+      }
+
+      .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+      }
+      .text-gray{
+        color: gray;
+      }
+
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="about.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#project" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-area-chart w3-xxlarge"></i>
+    <p>PROJECTS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#project" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Onkar Chavan.</h1>
+    <p>Front-End & Back-End Developer.</p>
+    <img src="about.jpg" alt="boy" class="w3-image" width="512" height="500">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Profile Summary</h2>
+    <hr style="width:260px" class="w3-opacity">
+    <p>I have completed M.Sc. (Comp. App. ) from Modern College Of Arts, Commerce and Science, Pune. In Academic Year, I have gain knowledge on Java, JavaScript, HTML, CSS and throughout my academics I have hands on React.Js, Node.js, MongoDB, HTML5, CSS3, JSX, etc. To pursue a career in the field of Software Developer in a professionally managed organization with methodology, to maintain a constant and steady growth with a dynamic thrust towards achieving perfection in my related functional area. Looking for an opportunity to learn new skills and utilize overall potential in IT Field. Capable to work on multiple tasks and to work independently with minimum supervision.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Front-End Developer</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div>
+    <p class="w3-wide">Back-End Developer</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:65%"></div>
+    </div>
+    <p class="w3-wide">Video Editing</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:78%"></div>
+    </div>
+    
+    <p class="w3-wide">Thumbnail Editing</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+    </div><br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">25+</span><br>
+        Videos Edited
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">11+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">50+</span><br>
+        Thumbnails Edited
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">01</span><br>
+        Happy Clients
+      </div>
+      
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <a href="OnkarChavanFresher.docx"><i class="fa fa-download"></i> Download Resume</a>
+    </button>
+  </div>
+</div>
+  <!-- Project Section -->
+  <main id="project">
+    <section class="secondSection">
+      <span class="text-gray">What I have done so far</span>
+      <h1>Past Projects</h1>
+
+      <div class="box">
+        <div class="vertical">
+          <img class="image-top" src="PHP.png" alt="" />
+          <div class="vertical-title">Online Notice Board (2018-2019)</div>
+          <div class="vertical-desc">
+            The aim of the project is that it is a web application which is
+            used to display notice, events and future announcements to the
+            user via text message.
+          </div>
+        </div>
+
+        <div class="vertical">
+          <img class="image-top" src="JS.png" alt="" />
+          <div class="vertical-title">VocabMaster (2020-2021)</div>
+          <div class="vertical-desc">
+            This project is based on Mcq’s required for practicing purpose
+            such as Competitive studies, Verbal activity, etc. Provides mcq
+            based on trial exam with Antonyms and Synonyms.
+          </div>
+        </div>
+
+        <div class="vertical">
+          <img class="image-top" src="Java.png" alt="" />
+          <div class="vertical-title">Medical Chatbot (2021-2022)</div>
+          <div class="vertical-desc">
+            The aim of this project is to replicate a person’s discussion. The
+            development of chatbot application can be done with making a user
+            interface to send input and receive response.
+          </div>
+        </div>
+
+        <div class="vertical">
+          <img class="image-top" src="HTML.png" alt="" />
+          <div class="vertical-title">Amazon Clone (September 2023)</div>
+          <div class="vertical-desc">
+            The project is just a clone of Amazon Webpage using Html, Css.
+          </div>
+        </div>
+
+        <div class="vertical">
+          <img class="image-top" src="React.png" alt="" />
+          <div class="vertical-title">SimpleCode (September 2023)</div>
+          <div class="vertical-desc">
+            SimpleCode is utility which can be used to manipulate your text in
+            the way you want. This app is build using ReactJS, JavaScript,
+            JSX.
+          </div>
+        </div>
+
+        <div class="vertical">
+          <img class="image-top" src="Nodejs.png" alt="" />
+          <div class="vertical-title">To-Do App (October 2023)</div>
+          <div class="vertical-desc">
+            The aim of the project is if one task is done so we can delete it
+            and add new task. Web techniques used are Node.js, Express, EJS,
+            JavaScript and CSS.
+          </div>
+        </div>
+
+        <div class="vertical">
+          <img class="image-top" src="React.png" alt="" />
+          <div class="vertical-title">
+            Task Management System (October 2023)
+          </div>
+          <div class="vertical-desc">
+            The aim of the project is managing task by users and create,
+            delete and update new task. Web techniques used are ReactJs,
+            Node.js, Express, JavaScript and CSS.
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- End Project Section -->
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Maharashtra, India</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 7040368671</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: onkarchavan830@gmail.com</p>
+      <p><a style="text-decoration: none;" href="https://github.com/sparklingsoul9285"><i class="fa fa-github fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> GitHub: https://github.com/sparklingsoul9285</a></p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <div class="footer-rights">
+        Copyright &#169; www.onkarsportfolio.com | All rights reserved
+     </div>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
